@@ -1,6 +1,6 @@
 /**
  * InfoServlet - Servlet that outputs information about request, server and operating system.
- * Copyright (c) 2014 Anar Software LLC. < http://anars.com >
+ * Copyright (c) 2014-2015 Anar Software LLC. < http://anars.com >
  * 
  * This program is free software: you can redistribute it and/or modify it under 
  * the terms of the GNU General Public License as published by the Free Software 
@@ -28,7 +28,6 @@ import java.util.Vector;
 
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
-
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -666,7 +665,7 @@ public class InfoServlet
     }
     outBuffer.append("   </tbody>\n");
     outBuffer.append("  </table>\n");
-    outBuffer.append(" <p id=\"copyright\">Copyright &copy; ");
+    outBuffer.append(" <p id=\"copyright\">Copyright &copy; 2014-");
     outBuffer.append(year);
     outBuffer.append(" <a href=\"http://anars.com\">Anar Software LLC</a>.");
     outBuffer.append("This software is licensed under the ");
